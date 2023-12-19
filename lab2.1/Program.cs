@@ -12,12 +12,14 @@ if (country.ToLower() == "россия" && (d.ToLower() == "суббота" || d
     price = s * dt; //цена без скидок
     price = price / 100 * 90; //цена со скидкой
     Console.WriteLine($"Цена в Росии со скидкой: {price:F2}");
+    Console.ReadKey();
 }
 else if (country.ToLower() == "россия" && (d.ToLower() != "суббота" || d != "воскресенье"))
 {
     s = 0.95; //в россии цена 0.95
     price = s * dt;
     Console.WriteLine($"Цена в России без скидок: {price:F2}");
+    Console.ReadKey();
 }
 if (country.ToLower() == "украина" && (d.ToLower() == "суббота" || d == "воскресенье"))
 {
@@ -25,10 +27,12 @@ if (country.ToLower() == "украина" && (d.ToLower() == "суббота" ||
     price = s * dt; //цена без скидок
     price = price / 100 * 90; //цена со скидкой
     Console.WriteLine($"Цена на Украине со скидкой: {price:F2}");
+    Console.ReadKey();
 }
 else if (country.ToLower() == "украина" && (d.ToLower() != "суббота" || d != "воскресенье"))
 {
     s = 0.35; //в украине цена 0.35
     price = s * dt;
     Console.WriteLine($"Цена на Украине без скидок: {price:F2}");
+    Console.ReadKey();
 }
