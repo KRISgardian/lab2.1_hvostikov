@@ -1,0 +1,10 @@
+﻿Console.Write("Введите х: ");
+double x = int.Parse(Console.ReadLine());
+Console.Write("Введите b: ");
+double b = int.Parse(Console.ReadLine());
+Console.Write("Введите a: ");
+double a = int.Parse(Console.ReadLine());
+Console.Write("Введите z: ");
+double z = int.Parse(Console.ReadLine());
+double f = (Math.Sqrt(Math.Sqrt(x) + Math.Pow(Math.Asin(x), 3) + Math.Pow(z, 4)) / (Math.Log(x) - Math.Asin(b*x - a)));
+Console.Write($"F = {f:F2}");
