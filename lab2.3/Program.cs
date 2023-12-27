@@ -1,7 +1,4 @@
-﻿using System.Diagnostics;
-using System.Security.Cryptography;
-
-Console.WriteLine("Красный зал - Хроники Нарнии\n    12ч - 25гр\n    16ч - 35гр\n    20ч - 45гр\nСиний зал - Чужие\n    10ч - 25гр\n    13ч - 35гр\n    16ч - 35гр\nГолубой зал - " +
+﻿Console.WriteLine("Красный зал - Хроники Нарнии\n    12ч - 25гр\n    16ч - 35гр\n    20ч - 45гр\nСиний зал - Чужие\n    10ч - 25гр\n    13ч - 35гр\n    16ч - 35гр\nГолубой зал - " +
     "Аватар\n    10ч - 35гр\n    14ч - 45гр\n    18ч - 45гр");
 Console.Write("Введите название зала: "); string hall = Console.ReadLine().ToLower();
 int time = 0;//время сеанса
